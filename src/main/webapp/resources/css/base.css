@@ -1,0 +1,125 @@
+#main-container{
+	background-color: rgb(251, 250, 250);	
+}
+
+.input-border {
+    border-radius: 1px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-button {
+	width:90px;
+    transition: background-color 0.5s linear; 
+    -o-transition: background-color 0.5s linear; 
+    -ms-transition: background-color 0.5s linear; 
+    -moz-transition: background-color 0.5s linear; 
+    -webkit-transition: background-color 0.5s linear; 
+	cursor:pointer;
+    font-size:15px;
+	padding:10px 20px;
+}
+
+.form-button.save{
+	color: #e2e2e2;
+	background-color:#000000;
+}
+
+.form-button.delete{
+	color: #080000;
+	background-color:#dedede;
+}
+
+.has-error{
+	color: #a94442;
+}
+
+.form-button.save:hover {
+	background-color:#484848;
+}
+
+.form-button.delete:hover{
+	background-color:#e8e8e8;
+}
+
+.rating-container .caption{
+	margin-top: 0px !important; /* needed to override star-rating system style */
+}
+
+.movie-display {
+    transition: background-color 0.5s linear; 
+    -o-transition: background-color 0.5s linear; 
+    -ms-transition: background-color 0.5s linear; 
+    -moz-transition: background-color 0.5s linear; 
+    -webkit-transition: background-color 0.5s linear; 
+	cursor: pointer;
+}
+
+.movie-display:hover{
+	background: rgba(216,216,216,0.5);
+}
+
+.movie-display img{
+	height:250px;
+}
+
+.rating-label{
+	padding-right: 15px;
+}
+
+.rating-label label{
+	margin-bottom: 0px;
+}
+
+.movie-details{
+	margin-left: 25px;
+}
+
+.movie-details-thumb{
+	height:250px;
+}
+
+.sub-container{
+	padding-bottom: 30px;
+	margin: 40px;
+}
+
+.list-inline{
+	margin-left: 0px !important;
+}
+
+.rating-movie-details{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.edit-button-movie-details{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.logout-icon{
+	vertical-align:middle;
+}
+
+.wishlist-button{
+	color: #e2e2e2 !important;
+    width: 125px;
+    margin-left: 25px;
+}
+
+.wishlist-added{
+	background-color: #165816;
+}
+
+.wishlist-added:hover{
+	color: #e2e2e2;
+	background-color: #248624;
+}
+.remove-from-wishlist{
+	background-color: #a90303 !important;
+}
+
+
